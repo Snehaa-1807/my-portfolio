@@ -4,7 +4,7 @@ import TextChange from "../TextChange";
 
 const Home = () => {
   return (
-    <div className="text-white flex flex-col md:flex-row w-full justify-between items-center p-10 md:p-20">
+    <div className="text-rose-300 flex flex-col md:flex-row w-full justify-between items-center p-10 md:p-20">
       <div className="md:w-2/4 md:pt-10 space-y-4">
         <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter">
           <TextChange />
@@ -18,7 +18,7 @@ const Home = () => {
         </p>
         <button
           onClick={() => document.getElementById("Footer")?.scrollIntoView({ behavior: "smooth" })}
-          className="mt-5 text-white py-2 px-4 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]"
+          className="mt-5 text-white py-2 px-4 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#f43f5e]"
         >
           Contact Me
         </button>

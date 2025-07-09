@@ -17,7 +17,7 @@ import { FaCuttlefish } from "react-icons/fa6"; // Represents C/C++
 const Experience = () => {
   return (
     <div id="Experience" className="p-10 md:p-24">
-      <h1 className="text-2xl md:text-4xl text-white font-bold mb-10">Experience</h1>
+      <h1 className="text-2xl md:text-4xl text-rose-300 font-bold mb-10">Experience</h1>
 
       <div className="flex flex-wrap items-center justify-around">
         {/* Tech stack section */}
